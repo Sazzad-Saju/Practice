@@ -1,0 +1,43 @@
+main {
+    background-image: linear-gradient(to bottom, #ffce00, #1fd9fa);
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    margin-bottom: 30px;
+}
+
+.input-sec {
+    display: flex;
+    justify-content: center;
+    /* later of input */
+    flex-wrap: wrap;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+input {
+    padding: 15px;
+    margin: 15px;
+    border-radius: 8px;
+    border: none;
+    /* flex: 1 1 40%; */
+    flex: 40%;
+    /* flex 25 to 42% also do same. have few confusions */
+}
+
+footer {
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    color: white;
+    padding-top: 10%;
+}
